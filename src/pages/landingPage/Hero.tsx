@@ -1,6 +1,5 @@
 // import React from 'react'
 import { useState, useEffect } from 'react';
-import flare from "../../assets/Purple-Flare.png"
 import line from "../../assets/hero-line.png"
 import chain from "../../assets/hero-chain.png"
 import cracker from "../../assets/hero-cracker.png"
@@ -39,7 +38,7 @@ const Hero = () => {
   return (
     <div className='w-full h-screen bg-[#150E28] relative font-pop overflow-hidden flex justify-center items-center'>
 
-      <img src={flare} alt="" className="absolute top-[70px] left-[-30px] w-[300px] lg:w-[600px]" />
+      <div className="absolute top-[70px] left-[-30px] w-[170px] h-[170px] lg:w-[300px] lg:h-[300px] bg-[#3e0a75] rounded-full blur-2xl" ></div>
 
       <div className="relative w-[85%] h-full flex flex-col justify-between items-center lg:flex-row ">
 

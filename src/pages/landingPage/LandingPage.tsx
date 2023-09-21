@@ -1,11 +1,14 @@
 // import React from 'react'
 
-import { Hero } from "."
+import { Criteria, Hero, Intro, Rules } from "."
 
 const LandingPage = () => {
   return (
     <div>
       <Hero />
+      <Intro />
+      <Rules />
+      <Criteria />
     </div>
   )
 }
