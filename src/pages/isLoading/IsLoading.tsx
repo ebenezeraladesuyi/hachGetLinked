@@ -7,7 +7,7 @@ const IsLoading = () => {
         <div className="w-full h-[100vh] flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center">
 
-                <i className="text-[#3F5BF6] text-[13px]">My To-do</i>
+                <i className="text-[#3F5BF6] text-[13px]">getLInked Hackathon</i>
 
                 <FallingLines color="#3F5BF6" width="100" visible={true} />
 
