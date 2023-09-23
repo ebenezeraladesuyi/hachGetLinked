@@ -106,7 +106,7 @@ const Register = () => {
 <img src={starBlue} alt="" className="absolute w-[15px] bottom-[60px] lg:bottom-[90px] lg:right-[-50px]" />
             </div>
 
-            <div className="lg:w-[50%] rounded lg:bg-[#1b142d] lg:p-[30px] lg:mt-[90px] lg:pl-[70px] lg:pr-[70px] lg:border-[#d434fe] border-[1px]">
+            <div className="lg:w-[50%] rounded lg:bg-[#1b142d] lg:p-[30px] lg:mt-[90px] lg:pl-[70px] lg:pr-[70px] lg:border-[#d434fe] lg:border-[1px]">
 
                 <h4 className="hidden lg:block text-[20px] mb-[30px] text-[#d434fe] font-semibold">Register</h4>
 

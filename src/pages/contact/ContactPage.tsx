@@ -125,9 +125,9 @@ const ContactPage = () => {
 <img src={starBlue} alt="" className="absolute w-[15px] bottom-[60px] lg:bottom-[90px] lg:right-[-150px]" />
             </div>
 
-            <div className="lg:w-[60%] rounded lg:bg-[#1b142d] lg:p-[50px] lg:mt-[65px] lg:pl-[70px] lg:pr-[70px] lg:border-[#d434fe] border-[1px]">
+            <div className="lg:w-[60%] rounded lg:bg-[#1b142d] lg:p-[50px] lg:mt-[65px] lg:pl-[70px] lg:pr-[70px] lg:border-[#d434fe] lg:border-[1px]">
 
-                <h5 className="text-[#d434fe] text-[18px] mt-[80px] lg:mt-0 mb-[10px] ">
+                <h5 className="text-[#d434fe] text-[18px] mt-[70px] lg:mt-0 mb-[10px] ">
                     Questions or Need assistance?<br/>Let us know about it
                 </h5>
 
