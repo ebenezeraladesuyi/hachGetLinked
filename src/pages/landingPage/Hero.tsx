@@ -67,7 +67,7 @@ const Hero = () => {
 
           <h5 className="text-center text-[11px] text-white mb-[10px] w-[280px] lg:text-left lg:text-[14px] lg:w-[400px] lg:mb-[30px]">Participate in getLinked tech Hackathon 2023 and stand a chance to win a Big price</h5>
 
-          <NavLink to='/'>
+          <NavLink to='/register'>
               <Button 
                   buttonContent="Register"
                 />
