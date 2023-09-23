@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { Criteria, Hero, Intro, Questions, Rewards, Rules, Sponsors, Timeline } from "."
+import { Criteria, Hero, Intro, Privacy, Questions, Rewards, Rules, Sponsors, Timeline } from "."
 
 const LandingPage = () => {
   return (
@@ -13,6 +13,7 @@ const LandingPage = () => {
       <Timeline />
       <Rewards />
       <Sponsors />
+      <Privacy />
     </div>
   )
 }

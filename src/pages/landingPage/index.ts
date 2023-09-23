@@ -6,4 +6,5 @@ export {default as Questions} from "./Questions";
 export {default as Timeline} from "./Timeline";
 export {default as Rewards} from "./Rewards"
 export {default as Sponsors} from "./Sponsors"
+export {default as Privacy} from "./Privacy"
 

@@ -9,6 +9,7 @@ import moment from "moment";
 import person from "../../assets/hero-img.png";
 import starWhite from "../../assets/star-white.png";
 import starRed from "../../assets/star-red.png"
+import { NavLink } from 'react-router-dom';
 
 
 const Hero = () => {
@@ -66,9 +67,11 @@ const Hero = () => {
 
           <h5 className="text-center text-[11px] text-white mb-[10px] w-[280px] lg:text-left lg:text-[14px] lg:w-[400px] lg:mb-[30px]">Participate in getLinked tech Hackathon 2023 and stand a chance to win a Big price</h5>
 
-          <Button 
-              buttonContent="Register"
-            />
+          <NavLink to='/'>
+              <Button 
+                  buttonContent="Register"
+                />
+            </NavLink>
 
             <div className="flex font-mont text-white gap-6 mt-[10px] lg:mt-[50px]">
               <h5 className='text-[22px] lg:text-[32px]'>{hours < 10 ? `0${hours}` : hours}<span className='text-[14px]'>H</span></h5>

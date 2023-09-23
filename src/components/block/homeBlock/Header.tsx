@@ -20,7 +20,8 @@ const Header = () => {
 
       <div className="w-[85%] flex justify-between items-center">
 
-        <div className="text-[17px] lg:text-[20px] font-extrabold text-white">get<span className="text-[#d434fe]">linked</span></div>
+        <div className="text-[17px] lg:text-[20px] font-extrabold text-white">get<span className="text-[#d434fe]">linked</span>
+        </div>
 
 
         { dropDown ? 
