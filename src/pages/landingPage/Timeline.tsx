@@ -22,9 +22,9 @@ const Timeline = () => {
             <div className="lg:hidden relative">
 
                 
-<img src={starBlue} alt="" className="absolute w-[10px] top-[-30px] left-[35px]" />
+<img src={starBlue} alt="" className="absolute w-[12px] top-[-30px] left-[35px]" />
 
-<img src={starWhite} alt="" className="absolute w-[10px] bottom-[420px] right-[40px] " />
+<img src={starWhite} alt="" className="absolute w-[10px] bottom-[430px] right-[40px] " />
 
 
                 <TimelineCard 

@@ -14,7 +14,7 @@ const Rewards = () => {
 
         <div className="w-[85%] flex flex-col justify-center items-center">
 
-            <div className="flex flex-col lg:flex-row-reverse lg:w-full lg:justify-between lg:items-center">
+            <div className="flex flex-col lg:flex-row-reverse lg:w-full lg:justify-between justify-center lg:items-center">
                 
                 <div className="lg:w-[50%]">
                     <h4 className="text-white font-extrabold  text-[18px] text-center lg:text-left lg:text-[30px]">Prizes and</h4>
@@ -26,12 +26,12 @@ const Rewards = () => {
                     </h5>
                 </div>
 
-                <div className="">
+                <div className="flex w-full  lg:w-[50%] justify-center">
                     <img src={trophy} alt="" className="w-[230px] lg:w-[390px] mb-[50px]" />
                 </div>
             </div>
 
-            <div className="lg:flex w-full lg:justify-between">
+            <div className="flex w-full  lg:justify-between justify-center">
                 <div className="hidden lg:block"></div>
 
                 <div className="relative lg:w-[50%]">

@@ -3,6 +3,7 @@ import React from 'react'
 import {RiMenu4Line} from "react-icons/ri";
 import { CgClose } from "react-icons/cg";
 import { Button } from "../../static";
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -52,15 +53,24 @@ const Header = () => {
 
         <div className="hidden lg:flex justify-between items-center w-[50%]">
           <div className="flex">
-            <h5 className="text-white cursor-pointer text-[14px]">Timeline</h5>
+
+          <NavLink to='/'>
+              <h5 className="text-white cursor-pointer text-[14px]">Timeline</h5>
+          </NavLink>
+
             <h5 className="text-white cursor-pointer text-[14px] ml-[25px]">Overview</h5>
             <h5 className="text-white cursor-pointer text-[14px] ml-[25px]">FAQs</h5>
-            <h5 className="text-white text-[14px] cursor-pointer ml-[25px]">Contact</h5>
+
+            <NavLink to='/contact'>
+              <h5 className="text-white text-[14px] cursor-pointer ml-[25px]">Contact</h5>
+            </NavLink>
           </div>
 
-          <Button 
+          <NavLink to='/register'>
+            <Button 
               buttonContent="Register"
               />
+            </NavLink>
         </div>
       </div>
 
@@ -68,15 +78,19 @@ const Header = () => {
             <div className="absolute w-full h-screen top-[70px]  z-40 lg:hidden transition-all 350ms ease-in-out" onClick={showDropDown}>
               <div className="bg-[#150E28] h-[245px] w-full pl-[25px] pt-[20px]">
                 <div className="">
-                  <h5 className="text-white cursor-pointer text-[14px] mt-[0px]">Timeline</h5>
+
+                  <NavLink to='/'>
+                    <h5 className="text-white cursor-pointer text-[14px] mt-[0px]">Timeline</h5>
+                  </NavLink>
+
                   <h5 className="text-white cursor-pointer text-[14px] mt-[10px]">Overview</h5>
                   <h5 className="text-white cursor-pointer text-[14px] mt-[10px]">FAQs</h5>
-                  <h5 className="text-white text-[14px] cursor-pointer mt-[10px] mb-[10px]">Contact</h5>
+                  <NavLink to='/contact'><h5 className="text-white text-[14px] cursor-pointer mt-[10px] mb-[10px]">Contact</h5></NavLink>
                 </div>
 
-                <Button 
+                <NavLink to='/register'><Button 
                     buttonContent="Register"
-                    />
+                    /></NavLink>
               </div>
             </div>
         : null

@@ -59,7 +59,7 @@ const Hero = () => {
             <img src={bulb} alt="" className="absolute w-[15px] top-[-10px] right-[10px] lg:w-[30px] lg:top-[-13px] lg:right-[25px]" /></span>
           </h4>
           <div className="flex items-center relative">
-            <h4 className="text-[24px] font-extrabold text-white lg:text-[60px]">Hackathon <span className="text-[#d434fe]">1.0</span></h4>
+            <h4 className="text-[24px] font-extrabold text-white lg:text-[57px]">Hackathon <span className="text-[#d434fe]">1.0</span></h4>
             <img src={chain} alt="" className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px]" />
             <img src={cracker} alt="" className="w-[22px] h-[22px] lg:w-[40px] lg:h-[40px]" />
           </div>

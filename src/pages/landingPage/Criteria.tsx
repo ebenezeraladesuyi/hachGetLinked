@@ -21,7 +21,7 @@ const Criteria = () => {
 
                 <img src={starWhite} alt="" className="absolute w-[10px] lg:w-[15px] top-[-20px] left-[70px] lg:top-[-60px]" />
 
-                <img src={starRed} alt="" className="absolute w-[10px] lg:w-[15px] top-[110px] left-[140px] lg:top-[50%] lg:left-[50%]" />
+                <img src={starRed} alt="" className="absolute w-[10px] lg:w-[15px] top-[110px] left-[140px] lg:top-[50%] lg:left-[270px]" />
 
                 <img src={starBlue} alt="" className="absolute w-[12px] lg:w-[15px] bottom-[0px] right-[40px] lg:bottom-[-40px]" />
             </div>
